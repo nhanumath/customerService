@@ -32,7 +32,7 @@ public class CustomerContoller {
 
 	@GetMapping("/findAllCustomers")
 	public List<Customer> findAllCustomers(){
-		log.info("Entering into findAllCustomers");
+		log.info("***Entering into findAllCustomers**");
 		return customerService.findAllCustomers();
 	}
 	
