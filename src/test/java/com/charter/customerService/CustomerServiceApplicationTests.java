@@ -36,7 +36,7 @@ class CustomerServiceApplicationTests {
 	@Test
 	public void test() {
 		List<Customer> list = customerRepository.findAll();
-		System.out.println(list);
+	
 	}
 
 }
